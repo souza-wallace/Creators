@@ -1,0 +1,75 @@
+ *{
+      margin: 0;
+      padding: 0;
+      font-family: Lexend Deca;
+  }
+  body{
+      background: #e5e5e5;
+  }
+  .header{
+      width: 1298px;
+      height: 300px;
+      background: linear-gradient(28.7deg, #574AE8
+      0%, #3EA1DB 100%);
+  }
+  .form_search{
+      height: 30px;
+      width: 300px;
+      margin-left: 200px;
+      border-radius: 5px;
+      background: #FFFFFF33;   
+  }
+  .form_search::placeholder { 
+    color: #b8c2f4;
+    font-family: Inter-Medium, sans-serif;
+    padding: 15px 20px;
+  }
+  .top-area{
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 20px 15px 20px;
+      color: #b3afaf;
+      font-size: 14px;
+  }
+  .title-area{
+      padding: 0 20px 15px 20px;
+      color: #2e286e;
+  }
+  .descricao{
+      padding: 0 25px 25px 25px;
+      color: #717171;
+      font-size: 16px;
+  }
+
+  .add{
+    color: #fff;
+    border: none;
+}
+  .add:hover{
+    text-decoration: none;
+    color: #fff;
+  }
+  #plus{
+      padding: 10px;
+      font-size: 25px;
+  }
+
+  #edit{
+      color: #574AE8;
+  }
+  #delete{
+    color: #e7372a;
+}
+.card-header{
+    background: linear-gradient(28.7deg, #574AE8
+    0%, #3EA1DB 100%);
+}
+.see{
+    text-decoration: none;
+    color: #574AE8;
+    cursor: pointer;
+}
+.see:hover{
+    text-decoration: none;
+    color: #9f9acf;
+  }
